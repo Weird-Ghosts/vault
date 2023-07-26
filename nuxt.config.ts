@@ -8,5 +8,7 @@ export default defineNuxtConfig({
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
   ],
-  
+  css: [
+    '~/assets/css/main.css',
+  ],
 })

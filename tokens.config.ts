@@ -89,7 +89,7 @@ export default defineTheme({
   typography: {
     font: {
       display: 'PP Object Sans',
-      body: '{font.sans}',
+      body: 'PP Object Sans',
     },
   },
 })
