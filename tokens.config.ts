@@ -6,7 +6,7 @@ export default defineTheme({
   },
   color: {
     black: '#0c0c0d',
-    white: '{color.yellow.100}',
+    white: '#fff',
     dimmed: 'rgba(0, 0, 0, .35)',
     dark: 'rgba(255, 255, 255, .15)',
     primary: {
@@ -21,18 +21,6 @@ export default defineTheme({
       800: '{color.red.800}',
       900: '{color.red.900}',
     },
-    blue: {
-      50: '#C5CDE8',
-      100: '#B6C1E2',
-      200: '#99A8D7',
-      300: '#7B8FCB',
-      400: '#5E77C0',
-      500: '#4560B0',
-      600: '#354A88',
-      700: '#25345F',
-      800: '#161E37',
-      900: '#06080F',
-    },
     red: {
       50: '#FBE8E8',
       100: '#e33f3e',
@@ -44,30 +32,6 @@ export default defineTheme({
       700: '#90110F',
       800: '#820907',
       900: '#740200',
-    },
-    green: {
-      50: '#CDF4E5',
-      100: '#BCF0DC',
-      200: '#9AE9CB',
-      300: '#79E2BA',
-      400: '#57DAA8',
-      500: '#36D397',
-      600: '#26AB78',
-      700: '#1B7D58',
-      800: '#114F38',
-      900: '#072117',
-    },
-    yellow: {
-      50: '#FFFFFF',
-      100: '#FFFFFF',
-      200: '#FFFFFF',
-      300: '#FFFFFF',
-      400: '#FFFFFF',
-      500: '#FBEFDE',
-      600: '#F5D7AC',
-      700: '#EFBE7A',
-      800: '#E9A648',
-      900: '#DE8D1B',
     },
   },
   elements: {
@@ -88,8 +52,12 @@ export default defineTheme({
   },
   typography: {
     font: {
-      display: 'PP Object Sans',
       body: 'PP Object Sans',
+      display: 'PP Object Sans',
     },
   },
+  font: {
+    body: 'PP Object Sans',
+  }
+
 })
