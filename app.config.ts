@@ -31,8 +31,8 @@ export default defineAppConfig({
     },
     github: {
       dir: 'content',
-      owner: 'jennie',
-      repo: 'weirdghosts_vault',
+      owner: 'Weird-Ghosts',
+      repo: 'vault',
       edit: true,
       contributors: false,
       branch: 'main',

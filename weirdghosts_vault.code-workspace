@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../weirdghosts_learn"
+		}
+	],
+	"settings": {
+		"search.useIgnoreFiles": false
+	}
+}
