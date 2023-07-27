@@ -1,8 +1,8 @@
 export default defineAppConfig({
   docus: {
-    title: 'Weird Ghosts Learn',
-    description: 'Resources for indie game devs building sustainable studios.',
-    image: 'https://learn.weirdghosts.com/img/weird_explosion.png',
+    title: 'Weird Ghosts Vault',
+    description: 'Resources for the Weird Ghosts community.',
+    image: 'https://vault.weirdghosts.com/img/weird_explosion.png',
     socials: {
       twitter: 'weird_ghosts',
       tiktok: 'weird__ghosts',
