@@ -22,7 +22,7 @@ Now, let's take a closer look and gather some data.
 
 **What's the community like?** The size of the community and how active they are can tell you a lot about how well a game is doing. Look at their social media (TikTok, Instagram, and Twitter/X) — how many followers do they have, and how engaged are they? Do they have buzz going on in their official Discords or subreddits? A lively community usually means a solid player base, which means the game is probably doing pretty well.
 
-**Marketing and PR:** How are they selling their game to the public? Are they active on social media or rely more on press releases and news articles? Have they partnered up with influencers or streamers? And look at their trailers and other promotional materials. What's the vibe they're going for, and how does the public react?
+**Marketing and PR:** How are they selling their game to the public? Are they active on social media or rely more on press releases and news articles? Are they working with influencers or streamers? And look at their trailers and other promotional materials. What's the vibe they're going for, and how does the public react?
 
 ### Step 3: Use tools to gather more data
 
@@ -90,16 +90,14 @@ _That's all there is to it! lol_
 
 Like all your studio and marketing tasks, this isn't a one-and-done thing. You'll want to keep your spreadsheet current (set a reminder to do a review every couple of months). And keep an eye out for new games, changes in pricing strategies, and trends around your genre's market.
 
-If you have any suggestions about improving this guide or the template, please [get in touch with us](mailto:hello@weirdghosts.ca)!
+If you have any suggestions about improving this guide or the template, please [get in touch with us](mailto:hello@weirdghosts.ca). Or better yet, hit that "Edit this page on GitHub" button at the bottom of the page.
 
 - - -
-## Resources
-
+**Resources**
 - [GameDiscoverCo newsletter](https://gamediscover.co/)
 - [How to Market a Game](https://howtomarketagame.com/)
 
-## Tools
-
+**Tools**
 - [Steam Hype Chart](https://plus.gamediscover.co/hype/) (requires Pro GameDiscoverCo account)
 - [SteamDB](https://steamdb.info/)
 - [Steam Revenue Calculator](https://steam-revenue-calculator.com/)

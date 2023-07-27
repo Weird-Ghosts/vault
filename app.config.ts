@@ -28,6 +28,14 @@ export default defineAppConfig({
         text: 'Made with <3 by Weird Ghosts',
         href: 'https://weirdghosts.ca',
       },
-    }
+    },
+    github: {
+      dir: 'content',
+      owner: 'jennie',
+      repo: 'weirdghosts_vault',
+      edit: true,
+      contributors: false,
+      branch: 'main',
+    },
   }
 })
