@@ -1,4 +1,5 @@
 import { defineTheme } from 'pinceau'
+import { p } from 'pinceau/stringify-9cb687f6'
 
 export default defineTheme({
   transition: {
@@ -49,6 +50,41 @@ export default defineTheme({
         },
       },
     },
+  },
+  prose: {
+    li: {
+      margin: '0 0 .25rem 0',
+    },
+    h2: {
+      margin: '1.5rem 0 .75rem 0',
+      fontSize: '{fontSize.3xl}',
+    },
+    h3: {
+      margin: '1.5rem 0 .75rem 0',
+      fontSize: '{fontSize.2xl}',
+    },
+    a: {
+      color: '{color.red.100}',
+      textDecoration: 'underline',
+      border: {
+        style: {
+          static: 'none',
+          hover: 'none',
+        }
+        
+      }
+    },
+    
+    p: {
+      margin: '0 0 .5rem 0',
+    },
+    ul: {
+      margin: '.25rem 0 .5rem 0',
+    },
+    ol: {
+      margin: '0 0 .5rem 0',
+    }    
+
   },
   typography: {
     font: {

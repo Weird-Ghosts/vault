@@ -4,10 +4,41 @@
   </AppLayout>
 </template>
 
-<style>
+<style lang="ts">
+css({
+  h2: {
+    color: "{color.primary.100}",
+    a: {
+      color: "{color.primary.100}",
+    }
+  },
+  h3 : {
+    color: "{color.primary.400}",
+    a: {
+      color: "{color.primary.400}",
+    }
+  },
+  ".button-link": {
+    fontSize: "36px !important",
+    borderWidth: "2px !important",
+    textTransform: "uppercase !important",
+    borderColor: "{color.primary.100} !important",
+    backgroundColor: "{color.white} !important",
+    color: "{color.primary.100} !important",
+    "&:hover": {
+      backgroundColor: "{color.primary.200} !important",
+      color: "{color.white} !important",
+    },
+    borderRadius: "{radii.none} !important",
+    padding: "{space.4} {space.6} !important",
+  }
+});
+</style>
+<style lang="postcss">
 body {
   font-family: "PP Object Sans", sans-serif !important;
 }
+
 @font-face {
   font-family: "PP Object Sans";
   src: url("/PPObjectSans-Regular.eot");

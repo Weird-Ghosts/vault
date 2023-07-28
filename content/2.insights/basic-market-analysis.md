@@ -6,11 +6,11 @@ navigation:
 
 This _very basic_ guide will help you start **benchmarking** your competitors' games and collecting relevant data so you can do a competitive/market analysis for your game. This is how we do it for potential investees at Weird Ghosts!
 
-### Step 1: Identify competitors
+## Step 1: Identify competitors
 
 This might be the hardest part; only you can pick the most relevant games out of the vast ocean of storefronts and platforms. Consider both direct and indirect competitors – those who make games very similar to yours and those competing for your audience (even if the game is quite different). Scour Steam, Epic, Switch, Xbox, Playstation, itch.io, Humble, GoG; ask around Gamma Space; bug your friends; and dig through showcases to come up with a list of 10-20 games that are similar to yours.
 
-### Step 2: Analyze competitor games
+## Step 2: Analyze competitor games
 
 Now, let's take a closer look and gather some data.
 
@@ -24,7 +24,7 @@ Now, let's take a closer look and gather some data.
 
 **Marketing and PR:** How are they selling their game to the public? Are they active on social media or rely more on press releases and news articles? Are they working with influencers or streamers? And look at their trailers and other promotional materials. What's the vibe they're going for, and how does the public react?
 
-### Step 3: Use tools to gather more data
+## Step 3: Use tools to gather more data
 
 Here are some recommended free or inexpensive tools that can help you gather data:
 
@@ -33,7 +33,7 @@ Here are some recommended free or inexpensive tools that can help you gather dat
 3. [Steam Revenue Calculator](https://steam-revenue-calculator.com/) (Boxleiter Method) - This tool provides an estimate of a game's revenue on Steam based on the number of reviews it has received.
 4. [VideoGameInsights](https://vginsights.com/) - This paid (and excellent) tool provides a wide range of data about games, including top games, trends, demographics, and more.
 
-### Step 4: Create a competitor analysis spreadsheet
+## Step 4: Create a competitor analysis spreadsheet
 
 Organize the data you've collected into a spreadsheet ([template](https://docs.google.com/spreadsheets/d/1fxDBgs-AQl5SHRQwCoxwH53SY1Qjl_MhROwL7z0EpB0/edit#gid=1422843669)). 
 
@@ -68,7 +68,7 @@ Here's a real example of a completed spreadsheet that we did for an investee: [*
 ::
 
 
-#### Step 5: Analyze data and draw conclusions
+## Step 5: Analyze data and draw conclusions
 
 After you've gathered all the data, it's time to analyze it and draw conclusions.
 
@@ -84,7 +84,7 @@ After you've gathered all the data, it's time to analyze it and draw conclusions
 
 It's still _your_ game and you might decide to discard some or all of this intel. Don't feel like you have to do things the way others do just because they're successful. This is just one piece of the complex puzzle of marketing your game; only you know what feels right for you.
 
-#### Step 6: Keep it updated!
+## Step 6: Keep it updated!
 
 _That's all there is to it! lol_
 

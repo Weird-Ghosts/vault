@@ -1,0 +1,137 @@
+---
+navigation:
+  title: Game Discovery Toolkit
+---
+
+# Summary: The Complete Game Discovery Toolkit
+
+This e-book comes with a Plus subscription to the [GameDiscoverCo Plus newsletter](https://newsletter.gamediscover.co), which we highly recommend. These are just my notes on the high points of the book!
+
+### Pre-release priorities
+
+#### Initial Steam page launch
+
+When you're planning on launching games on Steam, here are the most important steps you need to take for a successful initial Steam page launch:
+
+- always try to include a gameplay video
+- majority of screenshots should be of in-game assets
+- push your Discord server in an obvious place on the page
+- make sure your Steam tags are in place and are subgenre-specific enough
+- put gameplay GIFs in your description
+- use the 'capsule' description to clearly explain what you do in the game (including genre/subgenre!)
+- ideally, you should have the Steam page up 6 months before the game’s release at absolute minimum, and 12-18 months is even better for accumulating wishlists
+- focus on the growth of follows/wishlists
+- remember that wishlist spikes don't always map to sales
+
+#### High priority tasks
+
+- organic streamer outreach
+- creating video trailers (aim for 3 per cycle: launch, release date announce, and release. Two can be similar, and include as much gameplay as possible)
+- managing your Discord server/community interaction on Steam (including regular dev updates!)
+
+#### Medium priority tasks
+
+- press/media outreach
+- getting featured in Steam pre-release sales
+- maintaining active social media accounts (TikTok, Reddit, and Imgur are highest priority, but don't forget Twitter)
+- creating a demo for Steam festival or for long-term posting
+- conducting basic marketing tracking
+- considering paid ads or streamer inclusions for ‘visibility’ during launch
+
+#### Low priority tasks
+
+- attending physical events
+- creating physical paid merch
+- running paid ads for wishlist acquisition (unless it's a high-priced game)
+- submitting to Steam curators
+- implementing detailed marketing tracking
+- maintaining lower-priority social media (like Facebook)
+
+To improve your game's success on launch, you need to find the fans of your game, care for them, and nurture them as you develop it.
+
+## Post-release strategies
+
+Much is set after the game's launch - it's hard to turn around ratings and general level of interest after the first 2-4 weeks. But here's what you can do:
+
+- rely on word of mouth over time - if it's a great game, people will talk
+- be smart about taking advantage of sales and discounts
+- have a regular update structure to the game if you can
+
+### Marketing beats
+
+These are the key moments in your game's lifecycle that you should capitalize on:
+
+1. Initial announcement - 6-24 months before release - as early as possible
+   - press release
+   - trailer with gameplay
+   - Steam page
+2. Steam NextFest Demo/Appearance - 3-9 months before release
+3. Release date announcement - 4-8 weeks before release
+   - new visuals
+   - fresh trailer
+4. Game release
+   - "Available now" announcement
+   - new trailer
+   - streamer, press, and social blast with as many review keys as possible
+5. Post-release beats
+   - updates and DLC
+
+Paid DLC can be a great way to increase the value of the long tail. Don't count on base game buyers to come back for DLC, but first-time buyers might get the bundle. The earlier DLC is launched the better - it can be marketed on the game's title screen and alongside sale discounts.
+
+### Pricing
+
+Games should be priced at least $20 or 18 EUR. You should price regionally and tactically (for example, the price needs to be lower in China and Russia). True fans are less price sensitive - your job is to accumulate these. Price is not a driver - people buy games because they fulfill a need, not because they're cheap. You won't sell more copies at a lower price point, and a higher price can equal higher perceived quality. The exceptions to these rules are very short games, hobby games, 2D puzzle games, and DLC-driven games.
+
+### Maintaining the long tail
+
+1. Make a game that meets and manages the expectations of the people who are planning to buy and play it. Promote a clear pre-release understanding and execute on it.
+2. High review scores correlate to higher sales on Steam.
+   - Good word of mouth leads to better reviews.
+   - High review scores on the Steam page motivates buyers.
+3. Make a streamable game.
+   - Open the door to user-generated content and player creativity. The majority of games that do well in the long term allow new content.
+   - Retain players (for replayable, updatable games) through updates, DLC, social-centric gameplay, and discourse.
+   - Put your game on sale to turn wishlists into sales - be methodical about discount timings and amounts.
+
+## Post-release discount strategies
+
+Most devs don't strategically discount, but discounts can be a big post-launch driver.
+
+1. Frequency: Discount at every available opportunity. Find sales through Steam, and platform reps.
+2. Amount: Gradually increase discounts. For example, Overcooked introduced discounts down to 50% over 2 years.
+3. Aggressiveness: You can potentially make more cash with aggressive discounts.
+
+### Steam tags - best and worst genres
+
+Ranked from best median sales to worst: 4X, roguelike deckbuilder, city builder, political sim, RTS, management, online co-op, tactical RPG, Metroidvania, turn-based strategy, dating sim, roguelike, farming sim, hack and slash, JRPG, psychological horror, dungeon crawler, visual novel, point and click, action RPG, beat 'em up, walking simulator, FPS, survival horror, rhythm, interactive fiction, tower defense, side-scroller, platformer, puzzle platformer.
+
+## Discovery
+
+Expect to make 2x to 5x your first week sales in the first year.
+
+In terms of wishlists to sales expectations, the median is 0.2 sales per wishlist in the first week on Steam (0.36 average). 
+
+Buzz outside Steam counts for a lot. Titles that launched with over 10,000 wishlists but low recognition (1 out of 10) converted at a tenth of those with high recognition (8 out of 10). Press, streamers, and vibrant communities are important.
+
+### Steam's week 1 to year 1, 2, 3 revenue
+
+- Average multiple for Month 1: 1.57x
+- Average multiple for Year 1: 4.52x
+
+- Median multiple for Month 1: 1.47x
+- Median multiple for Year 1: 4x
+
+### Steam's reviews to sales ratio
+
+Using the New Boxleiter method, the average number of sales per review is 63, with a median of 58. The non-outlier range is 20 to 60 sales per review for new games launched after 2020. (note: [here's an online tool](https://steam-revenue-calculator.com) for estimating Steam sales based on reviews using the Boxleiter method)
+
+### Steam's net revenue compared to gross
+
+Determining revenue involves factoring in the average "regular" price, how often it was on sale and by how much, the Steam platform cut, refunds, and VAT. Realistically, this is 30-50% of the optimistic gross number.
+
+#### Refunds
+
+Why might your refund rate be high?
+
+1. The game doesn't make a good initial impression. You can do something about this!
+2. The country mix you are selling into: China refund
