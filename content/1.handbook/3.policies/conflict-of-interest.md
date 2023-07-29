@@ -1,3 +1,8 @@
+---
+navigation:
+  title: Conflict of Interest
+---
+
 # Conflict of Interest Policy
 
 At Weird Ghosts, we are committed to acting in the best interests of our community at all times. This means avoiding any real or perceived conflicts of interest. This policy applies to all staff, General Partners, mentors, partners, and other leaders associated with Weird Ghosts.
