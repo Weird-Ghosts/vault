@@ -19,6 +19,7 @@
     "nuxt": "^3.6.2"
   },
   "dependencies": {
-    "pinceau": "^0.19.2"
+    "pinceau": "^0.19.2",
+    "remark-smartypants": "^2.0.0"
   }
 }
