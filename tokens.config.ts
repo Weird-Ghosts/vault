@@ -63,6 +63,10 @@ export default defineTheme({
       margin: '1.5rem 0 .75rem 0',
       fontSize: '{fontSize.2xl}',
     },
+    h4: {
+      margin: '1.5rem 0 .5rem 0',
+      fontSize: '{fontSize.xl}',
+    },    
     a: {
       color: '{color.red.100}',
       textDecoration: 'underline',
