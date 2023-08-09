@@ -2,7 +2,7 @@ export default defineAppConfig({
   docus: {
     title: "Weird Ghosts Vault",
     description: "Resources for the Weird Ghosts community.",
-    image: "https://vault.weirdghosts.com/img/weird_explosion.png",
+    image: "https://vault.weirdghosts.ca/img/weird_explosion.png",
     socials: {
       twitter: "weird_ghosts",
       tiktok: "weird__ghosts",
