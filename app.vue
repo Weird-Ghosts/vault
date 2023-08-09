@@ -18,6 +18,16 @@ css({
       color: "{color.primary.400}",
     }
   },
+  ".docs-aside-tree": {
+    ".link": {
+      fontSize: "{fontSize.lg} !important",
+      lineHeight: "{text.lg.lineHeight} !important",
+    },
+    ".title-collapsible-button": {
+      fontSize: "{fontSize.lg} !important",
+      lineHeight: "{text.lg.lineHeight} !important",
+    }
+  },
   ".button-link": {
     fontSize: "36px !important",
     borderWidth: "2px !important",

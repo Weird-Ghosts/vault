@@ -89,6 +89,10 @@ export default defineTheme({
       margin: "1.5rem 0 .5rem 0",
       fontSize: "{fontSize.xl}",
     },
+    h5: {
+      margin: "1rem 0 .25rem 0",
+      fontSize: "{fontSize.lg}",
+    },
     a: {
       color: "{color.red.100}",
       textDecoration: "underline",
