@@ -3,7 +3,31 @@
     <NuxtPage />
   </AppLayout>
 </template>
-
+<script setup lang="ts">
+useHead({
+  meta: [
+    { name: "twitter:card", content: "summary_large_image" },
+    {
+      name: "keywords",
+      content:
+        "social impact, impact measurement, indie studios, impact funding, social finance",
+    },
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Weird Ghosts" },
+    { name: "copyright", content: "© 2023 Weird Ghosts" },
+  ],
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk}` : "Weird Ghosts Learn";
+  },
+  link: [
+    {
+      rel: "icon",
+      type: "image/ico",
+      href: "/favicon.ico",
+    },
+  ],
+});
+</script>
 <style lang="ts">
 css({
   h2: {
