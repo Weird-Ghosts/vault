@@ -57,6 +57,9 @@ useSeoMeta({
 
 <style lang="ts">
 css({
+  ".card-grid": {
+    paddingBottom: "{space.8} !important",
+  },
   ".docs-prev-next": {
     display: "none !important",
   },
