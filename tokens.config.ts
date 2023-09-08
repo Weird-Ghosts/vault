@@ -47,6 +47,7 @@ export default defineTheme({
       info: {
         backgroundColor: {
           primary: "{color.red.50}",
+          secondary: "{color.red.900}",
         },
         borderColor: {
           initial: "{color.red.100}",
@@ -76,9 +77,13 @@ export default defineTheme({
   prose: {
     li: {
       margin: "0 0 .25rem 0",
+      fontSize: "{fontSize.lg}",
+    },
+    h1: {
+      fontSize: "{fontSize.4xl}",
     },
     h2: {
-      margin: "1.5rem 0 .75rem 0",
+      margin: "1.5rem 0 .25rem 0 !important",
       fontSize: "{fontSize.3xl}",
     },
     h3: {
@@ -94,8 +99,11 @@ export default defineTheme({
       fontSize: "{fontSize.lg}",
     },
     a: {
-      color: "{color.red.100}",
+      color: {
+        static: "{color.red.100}",
+      },
       textDecoration: "underline",
+      fontWeight: "bold",
       border: {
         style: {
           static: "none",
@@ -112,11 +120,13 @@ export default defineTheme({
       fontSize: "{fontSize.lg}",
     },
     p: {
-      margin: "0 0 .5rem 0",
+      fontSize: "{fontSize.lg}",
+      margin: "0 0 1.5rem 0",
     },
     ul: {
       margin: ".25rem 0 .5rem 0",
     },
+
     ol: {
       margin: "0 0 .5rem 0",
     },

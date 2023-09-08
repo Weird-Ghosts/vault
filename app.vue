@@ -3,7 +3,10 @@
     <NuxtPage />
   </AppLayout>
 </template>
+
 <script setup lang="ts">
+const { page } = useContent();
+
 useHead({
   meta: [
     { name: "twitter:card", content: "summary_large_image" },
@@ -27,9 +30,47 @@ useHead({
     },
   ],
 });
+const defaultTitle = "Weird Ghosts Learn";
+const defaultDescription =
+  "Resources for indie game devs building sustainable, impact-oriented studios.";
+const defaultImage = "https://learn.weirdghosts.ca/img/weird_explosion.png";
+const defaultUrl = "https://learn.weirdghosts.ca";
+const baseUrl = "https://learn.weirdghosts.ca";
+
+useSeoMeta({
+  title: () => (page.value && page.value.title) || defaultTitle,
+  ogTitle: () => (page.value && page.value.title) || defaultTitle,
+  ogDescription: () =>
+    (page.value && page.value.description) || defaultDescription,
+  description: () =>
+    (page.value && page.value.description) || defaultDescription,
+  ogImage: () =>
+    page.value && page.value.image ? page.value.image.src : defaultImage,
+  ogUrl: () => (page.value && `${baseUrl}${page.value._path}`) || defaultUrl,
+  twitterTitle: () => (page.value && page.value.title) || defaultTitle,
+  twitterDescription: () =>
+    (page.value && page.value.description) || defaultDescription,
+  twitterImage: () =>
+    page.value && page.value.image ? page.value.image.src : defaultImage,
+});
 </script>
+
 <style lang="ts">
 css({
+  ".docs-prev-next": {
+    display: "none !important",
+  },
+  ".docs-page-content": {
+    "&.has-aside": {
+      gridTemplateColumns: "minmax(250px,250px) minmax(320px,1fr) minmax(250px,250px) !important",
+    }
+  },
+  ".page-body": {
+    "h1:not(.not-prose):first-child": {
+      fontSize: "{fontSize.4xl} !important",
+      lineHeight: "{text.4xl.lineHeight} !important",
+    },
+  },
   h2: {
     color: "{color.primary.100}",
     a: {
@@ -42,30 +83,60 @@ css({
       color: "{color.primary.400}",
     }
   },
-  ".docs-aside-tree": {
-    ".link": {
-      fontSize: "{fontSize.lg} !important",
-      lineHeight: "{text.lg.lineHeight} !important",
+  article: {
+    ul: {
+      padding: "0 1.5rem !important",
+      margin: "1.5rem 0",
+      li: {
+        fontSize: "{fontSize.lg}",
+        marginBottom: "0 !important",
+        marginTop: ".25rem !important",
+        "&:last-child": {
+          marginBottom: "0",
+        },
+      },
     },
+    ol: {
+      padding: "0 2rem !important",
+      li: {
+        fontSize: "{fontSize.lg}",
+        marginBottom: "0 !important",
+        marginTop: ".25rem !important",
+        "&:last-child": {
+          marginBottom: "0",
+        },
+      },
+    },
+  },
+  ".docs-aside-tree": {
+    // ".link": {
+    //   fontSize: "{fontSize.lg} !important",
+    //   lineHeight: "{text.lg.lineHeight} !important",
+    // },
     ".title-collapsible-button": {
-      fontSize: "{fontSize.lg} !important",
-      lineHeight: "{text.lg.lineHeight} !important",
+      // fontSize: "{fontSize.lg} !important",
+      // lineHeight: "{text.lg.lineHeight} !important",
+      textAlign: "left !important",
     }
   },
-  ".button-link": {
-    fontSize: "36px !important",
-    borderWidth: "2px !important",
-    textTransform: "uppercase !important",
-    borderColor: "{color.primary.100} !important",
-    backgroundColor: "{color.white} !important",
-    color: "{color.primary.100} !important",
-    "&:hover": {
-      backgroundColor: "{color.primary.200} !important",
-      color: "{color.white} !important",
-    },
-    borderRadius: "{radii.none} !important",
-    padding: "{space.4} {space.6} !important",
-  }
+  ".alert": {
+    fontSize: "{fontSize.lg} !important",
+    lineHeight: "1.5 !important",
+  },
+  // ".button-link": {
+  //   fontSize: "32px !important",
+  //   borderWidth: "2px !important",
+  //   textTransform: "uppercase !important",
+  //   borderColor: "{color.primary.100} !important",
+  //   backgroundColor: "{color.white} !important",
+  //   color: "{color.primary.100} !important",
+  //   "&:hover": {
+  //     backgroundColor: "{color.primary.200} !important",
+  //     color: "{color.white} !important",
+  //   },
+  //   borderRadius: "{radii.none} !important",
+  //   padding: "{space.4} {space.6} !important",
+  // }
 });
 </style>
 <style lang="postcss">
