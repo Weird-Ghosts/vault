@@ -21,5 +21,8 @@
   "dependencies": {
     "pinceau": "^0.19.2",
     "remark-smartypants": "^2.0.0"
-  }
+  },
+  "resolutions": {
+    "string-width": "4.2.3"
+ }
 }
