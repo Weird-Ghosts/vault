@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: "@nuxt-themes/docus",
+
   content: {
     markdown: {
       remarkPlugins: ["remark-smartypants"],
@@ -15,5 +16,6 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     // https://github.com/nuxt/devtools
     "@nuxt/devtools",
+    "@nuxthq/studio",
   ],
 });
