@@ -11,11 +11,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: [
-    // https://github.com/nuxt-modules/plausible
-    "@nuxtjs/plausible",
-    // https://github.com/nuxt/devtools
-    "@nuxt/devtools",
-    "@nuxthq/studio",
-  ],
+  modules: ["@nuxtjs/plausible", "@nuxt/devtools", "@nuxthq/studio"],
 });

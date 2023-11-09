@@ -37,22 +37,22 @@ const defaultImage = "https://learn.weirdghosts.ca/img/weird_explosion.png";
 const defaultUrl = "https://learn.weirdghosts.ca";
 const baseUrl = "https://learn.weirdghosts.ca";
 
-useSeoMeta({
-  title: () => (page.value && page.value.title) || defaultTitle,
-  ogTitle: () => (page.value && page.value.title) || defaultTitle,
-  ogDescription: () =>
-    (page.value && page.value.description) || defaultDescription,
-  description: () =>
-    (page.value && page.value.description) || defaultDescription,
-  ogImage: () =>
-    page.value && page.value.image ? page.value.image.src : defaultImage,
-  ogUrl: () => (page.value && `${baseUrl}${page.value._path}`) || defaultUrl,
-  twitterTitle: () => (page.value && page.value.title) || defaultTitle,
-  twitterDescription: () =>
-    (page.value && page.value.description) || defaultDescription,
-  twitterImage: () =>
-    page.value && page.value.image ? page.value.image.src : defaultImage,
-});
+// useSeoMeta({
+//   title: () => (page.value && page.value.title) || defaultTitle,
+//   ogTitle: () => (page.value && page.value.title) || defaultTitle,
+//   ogDescription: () =>
+//     (page.value && page.value.description) || defaultDescription,
+//   description: () =>
+//     (page.value && page.value.description) || defaultDescription,
+//   ogImage: () =>
+//     page.value && page.value.image ? page.value.image.src : defaultImage,
+//   ogUrl: () => (page.value && `${baseUrl}${page.value._path}`) || defaultUrl,
+//   twitterTitle: () => (page.value && page.value.title) || defaultTitle,
+//   twitterDescription: () =>
+//     (page.value && page.value.description) || defaultDescription,
+//   twitterImage: () =>
+//     page.value && page.value.image ? page.value.image.src : defaultImage,
+// });
 </script>
 
 <style lang="ts">
