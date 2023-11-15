@@ -1323,7 +1323,7 @@
     vite-plugin-checker "^0.6.2"
     vue-bundle-renderer "^2.0.0"
 
-"@nuxthq/studio@^1.0.0", "@nuxthq/studio@^1.0.2":
+"@nuxthq/studio@^1.0.0", "@nuxthq/studio@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@nuxthq/studio/-/studio-1.0.4.tgz#bbb9276dccdfeb99af7fb90e8f2f683ca386f8ec"
   integrity sha512-+IAWXx/dpOGTF/5cRw8hpOilB4UNluXsDzG/j0NB00Tqie+5rhmugPyirRYdNu9uYF14gBkp5az2HPxfW4o4Gg==
@@ -9506,6 +9506,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
