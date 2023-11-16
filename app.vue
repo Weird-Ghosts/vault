@@ -89,7 +89,7 @@ css({
   article: {
     ul: {
       padding: "0 1.5rem !important",
-      margin: "1.5rem 0",
+      margin: "1.5rem 0 !important",
       li: {
         fontSize: "{fontSize.lg}",
         marginBottom: "0 !important",

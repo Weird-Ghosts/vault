@@ -5,7 +5,7 @@ export default defineAppConfig({
     image: "https://vault.weirdghosts.ca/img/weird_explosion.png",
     socials: {
       twitter: "weird_ghosts",
-      tiktok: "weird__ghosts",
+      tiktok: "@weird__ghosts",
     },
     aside: {
       level: 1,
