@@ -87,7 +87,7 @@ export default defineTheme({
       fontSize: "{fontSize.3xl}",
     },
     h3: {
-      margin: "1.5rem 0 .75rem 0",
+      margin: "1.5rem 0 .25rem 0",
       fontSize: "{fontSize.2xl}",
     },
     h4: {
