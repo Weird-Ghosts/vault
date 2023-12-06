@@ -87,6 +87,11 @@ css({
     }
   },
   article: {
+    h3: {
+      "+ ul": {
+        marginTop: "0 !important",
+      }
+    },
     ul: {
       padding: "0 1.5rem !important",
       margin: "1.5rem 0 !important",
@@ -97,6 +102,9 @@ css({
         "&:last-child": {
           marginBottom: "0",
         },
+        ul: {
+          marginTop: "0 !important",
+        }
       },
     },
     ol: {
