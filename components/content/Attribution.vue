@@ -14,7 +14,7 @@
 <style scoped lang="ts">
 css({
 
-    '.logo': {
+    'div.logo': {
       width: '50%',
       alignItems: 'center',
       justifyContent: 'center',
