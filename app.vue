@@ -151,43 +151,8 @@ css({
 });
 </style>
 <style lang="postcss">
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
-  font-family: "PP Object Sans", sans-serif !important;
-}
-
-@font-face {
-  font-family: "PP Object Sans";
-  src: url("/PPObjectSans-Regular.eot");
-  src: url("/PPObjectSans-Regular.eot?#iefix") format("embedded-opentype"),
-    url("/PPObjectSans-Regular.woff2") format("woff2"),
-    url("/PPObjectSans-Regular.woff") format("woff"),
-    url("/PPObjectSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PP Object Sans";
-  src: url("/PPObjectSans-Black.eot");
-  src: url("/PPObjectSans-Black.eot?#iefix") format("embedded-opentype"),
-    url("/PPObjectSans-Black.woff2") format("woff2"),
-    url("/PPObjectSans-Black.woff") format("woff"),
-    url("/PPObjectSans-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PP Object Sans";
-  src: url("/ObjectSans-Bold.eot");
-  src: url("/ObjectSans-Bold.eot?#iefix") format("embedded-opentype"),
-    url("/ObjectSans-Bold.woff2") format("woff2"),
-    url("/ObjectSans-Bold.woff") format("woff"),
-    url("/ObjectSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Roboto", sans-serif !important;
 }
 </style>

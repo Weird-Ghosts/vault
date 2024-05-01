@@ -133,11 +133,11 @@ export default defineTheme({
   },
   typography: {
     font: {
-      body: "PP Object Sans",
-      display: "PP Object Sans",
+      body: "Roboto",
+      display: "Roboto",
     },
   },
   font: {
-    body: "PP Object Sans",
+    body: "Roboto",
   },
 });
