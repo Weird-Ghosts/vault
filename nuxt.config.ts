@@ -11,5 +11,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   modules: ["@nuxtjs/plausible", "@nuxt/devtools", "@nuxthq/studio"],
+  compatibilityDate: "2024-12-16",
 });
